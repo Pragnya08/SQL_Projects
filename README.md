@@ -14,3 +14,8 @@
 - What is the number of distinct countries present in the database? The output should be single row and column aliased as total_distinct_countries.
 - What country has the highest amount of debt? Your output should contain two columns: country_name and total_debt and one row.
 - What country has the lowest amount of principal repayments (indicated by the "DT.AMT.DLXF.CD" indicator code)?
+
+# Analyzing Industry Carbon Emissions
+## Level: Beginner
+## Task: Use your SQL skills to explore a dataset about product carbon emissions.
+- Using the product_emissions table, find the number of unique companies and their total carbon footprint PCF for each industry group, filtering for the most recent year in the database. The query should return three columns: industry_group, num_companies, and total_industry_footprint, with the last column being rounded to one decimal place. The results should be sorted by total_industry_footprint from highest to lowest values.
